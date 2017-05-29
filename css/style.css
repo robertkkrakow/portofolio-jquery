@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#main-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+/*ADDITIONAL*/
+.colour-green{
+    color: #1ac056;
+    font-weight: 500;
+}
+
+/*NAV SECTION*/
+
+#menu {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 10;
+}
+
+#menu .menu-item {
+    display: inline-block;
+    list-style: none;
+    padding: 2%;
+    font-size: 1.2em;
+}
+
+#menu .menu-item a {
+    text-decoration: none;
+    color: #1ac056;
+}
+
+#menu .menu-item a:hover {
+    color: grey;
+}
+
+
+/*HEADER SECTION*/
+#header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/header-background.jpg');
+    background-size: cover;
+}
+
+.header-text{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+#header>h1 {    
+    position: absolute;
+    top: 50%;
+    font-size: 7em;
+    font-weight: 100;
+    color: white;
+}
+#header>h2 {    
+    position: absolute;
+    top: 65%;
+    font-size: 2.5em;
+    font-weight: 100;
+    color: white;
+}
+
+
+
+/*ABOUT SECTION*/
+#about{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    background-color: #f9fcfe;
+    box-shadow: 0px 7px 5px lightgrey;
+}
+#about>h3{
+    width: 100%;
+    font-size: 2em;
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 3%; 
+}
+.about-inner-container{
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    overflow: auto;
+}
+#about p{
+    padding: 0 5% 5% 5%;
+    font-weight: 100;
+}
+
+#about figure {
+    width: 280px;
+    line-height: 200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#about figure img {
+    width: 100%;
+    border: 15px solid white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/*SKILLS SECTION*/
+#skills{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    background-color: gray;
+}
+#skills>h3{
+    width: 100%;
+    font-size: 2em;
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3%; 
+}
+#skills p{
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+/*PORTFOLIO SECTION*/
+#portfolio{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    background-color:darkseagreen;
+}
+#portfolio>h3{
+    width: 100%;
+    font-size: 2em;
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3%; 
+}
+
+
+
+/*FOOTER SECTION*/
+#contact{
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    background-color:skyblue;
+}
+#contact>h3{
+    position: absolute;
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    font-weight: 100;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 3%; 
+}
+
+
+
+
+
