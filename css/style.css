@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
 
 #main-container {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: aquamarine;
 }
 
@@ -22,7 +23,7 @@
 #menu {
     position: fixed;
     width: 100%;
-    height: 10%;
+    height: 50px;
     text-align: right;
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 10;
@@ -31,7 +32,7 @@
 #menu .menu-item {
     display: inline-block;
     list-style: none;
-    padding: 2%;
+    padding: 10px 20px 10px 20px;
     font-size: 1.2em;
 }
 
@@ -97,19 +98,16 @@
     font-weight: 100;
     text-align: center;
     display: inline-block;
-    box-sizing: border-box;
-    padding: 3%; 
+    padding: 2em; 
 }
 .about-inner-container{
     width: 50%;
     display: inline-block;
-    box-sizing: border-box;
     float: left;
     overflow: auto;
 }
 #about p{
     padding: 0 5% 5% 5%;
-    font-weight: 100;
 }
 
 #about figure {
@@ -145,8 +143,7 @@
     color: black;
     font-weight: 100;
     text-align: center;
-    box-sizing: border-box;
-    padding: 3%; 
+    padding: 2em; 
 }
 #skills p{
     padding: 0 20px 20px 20px;
@@ -160,6 +157,8 @@
 #portfolio{
     position: relative;
     width: 100%;
+    left: 0;
+    right: 0;
     display: inline-block;
     background-color:darkseagreen;
 }
@@ -170,30 +169,65 @@
     font-weight: 100;
     text-align: center;
     box-sizing: border-box;
-    padding: 3%; 
+    padding: 2em; 
 }
 
 
 
 /*FOOTER SECTION*/
 #contact{
-    position: relative;
     width: 100%;
-    height: 50vw;
+/*    height: 50vw;*/
     background-color:skyblue;
 }
 #contact>h3{
-    position: absolute;
     width: 100%;
     font-size: 2em;
     color: white;
     font-weight: 100;
-    text-align: left;
-    box-sizing: border-box;
-    padding: 3%; 
+    text-align: left; 
+    padding: 2em; 
 }
 
+/*form*/
+.address-container, .form-container{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    padding: 2em;
+    background-color: #213b50;
+}
 
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 10px 0;
+    border: 0;
+    background-color: #2b4a64;
+}
+textarea{
+    height: 200px;
+}
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    background-color: #125893;
+}
+input[type=text]::placeholder, input[type=email]::placeholder, textarea::placeholder {
+    color: #bddffc;
+}
 
-
-
+input[type=submit]{
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    background-color: #1ac056;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    float: right;  
+}
+input[type=submit]:hover{
+    background-color: #1f8a46;
+}
