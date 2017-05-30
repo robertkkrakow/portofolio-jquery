@@ -262,7 +262,47 @@
     text-decoration:underline;
 }
 
+/*test*/
+.mydiv-f, .mydiv-g, .mydiv-t, .mydiv-l {
+    font-family: sans-serif;
+    width: 50px;
+    height: 50px;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    margin-right: 1em;
+}
 
+.mydiv-f:before {
+    content: "\f09a ";    
+    font-family: FontAwesome;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+}
+.mydiv-g:before {
+    content: "\f0d5 ";    
+    font-family: FontAwesome;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+}
+.mydiv-t:before {
+    content: "\f099 ";    
+    font-family: FontAwesome;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+}
+.mydiv-l:before {
+    content: "\f0e1 ";    
+    font-family: FontAwesome;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+}
 
 /*form -----> */
 
