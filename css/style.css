@@ -61,7 +61,6 @@ a {
     height: 100vh;
     background-image: url('../img/header-background.jpg');
     background-size: cover;
-    
 }
 
 .header-text {
@@ -166,9 +165,11 @@ a {
     text-align: center;
     padding: 2em;
 }
+
 .container-icons figure {
     display: inline-block;
-    padding: 0 2em 4em 2em;;
+    padding: 0 2em 4em 2em;
+    ;
 }
 
 figure figcaption {
@@ -182,6 +183,7 @@ figure figcaption {
     width: 100%;
     box-sizing: border-box;
 }
+
 
 /*PORTFOLIO SECTION*/
 
@@ -204,7 +206,7 @@ figure figcaption {
     padding: 2em;
 }
 
-.portfolio-container{
+.portfolio-container {
     display: inline-block;
     width: 100%;
     padding: 2em;
@@ -229,6 +231,7 @@ figure figcaption {
 #container-3 {
     background-image: url('../img/portfolio4.jpg');
 }
+
 .box-mask {
     position: absolute;
     background-color: rgba(42, 61, 79, 0.8);
@@ -267,20 +270,7 @@ figure figcaption {
 p {
     text-align: center;
     padding: 2em;
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*FOOTER SECTION*/
@@ -313,18 +303,21 @@ p {
     overflow: hidden;
     padding: 2em;
 }
-.address-container-inside{
+
+.address-container-inside {
     width: 100%;
     height: 50%;
     display: inline-block;
 }
-.socialmedia-container{
+
+.socialmedia-container {
     width: 100%;
     display: inline-block;
     padding: 8em 0 0 2em;
-        color: azure;
+    color: azure;
 }
-.sm-ico{
+
+.sm-ico {
     display: inline-block;
     width: 3em;
     height: 3em;
@@ -334,15 +327,18 @@ p {
     padding-left: 1em 1em 0 0;
     color: azure;
 }
-.sm-ico>a{
+
+.sm-ico>a {
     color: azure;
     cursor: pointer;
 }
-.sm-ico>a:hover{
+
+.sm-ico>a:hover {
     color: red;
     cursor: pointer;
 }
-.address-text{
+
+.address-text {
     display: inline-block;
     width: 100%;
     height: 50%;
@@ -351,23 +347,31 @@ p {
     font-style: normal;
     font-size: 1em;
     font-weight: 200;
-
 }
-.address-text>p{
+
+.address-text>p {
     padding-top: 1em;
     line-height: 1.7em;
+    text-align: left;
 }
-.address-text p>a{
+
+.address-text p>a {
     color: #1ac056;
     text-decoration: none;
 }
-.address-text p>a:hover{
+
+.address-text p>a:hover {
     color: #1f8a46;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
+
 /*test*/
-.mydiv-f, .mydiv-g, .mydiv-t, .mydiv-l {
+
+.mydiv-f,
+.mydiv-g,
+.mydiv-t,
+.mydiv-l {
     font-family: sans-serif;
     width: 50px;
     height: 50px;
@@ -380,33 +384,37 @@ p {
 }
 
 .mydiv-f:before {
-    content: "\f09a ";    
+    content: "\f09a ";
     font-family: FontAwesome;
     font-size: 2em;
     display: block;
     text-align: center;
 }
+
 .mydiv-g:before {
-    content: "\f0d5 ";    
+    content: "\f0d5 ";
     font-family: FontAwesome;
     font-size: 2em;
     display: block;
     text-align: center;
 }
+
 .mydiv-t:before {
-    content: "\f099 ";    
+    content: "\f099 ";
     font-family: FontAwesome;
     font-size: 2em;
     display: block;
     text-align: center;
 }
+
 .mydiv-l:before {
-    content: "\f0e1 ";    
+    content: "\f0e1 ";
     font-family: FontAwesome;
     font-size: 2em;
     display: block;
     text-align: center;
 }
+
 
 /*form -----> */
 
@@ -452,9 +460,11 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #1f8a46;
 }
+
+
 /*<----- form*/
 
-.copy{
+.copy {
     width: 100%;
     height: 1.5em;
     font-weight: 200;
@@ -462,5 +472,4 @@ input[type=submit]:hover {
     background-color: #142634;
     display: inline-block;
     padding: .25em 0 .25em 2em;
-    
 }
