@@ -20,6 +20,10 @@
     font-weight: 500;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /*NAV SECTION*/
 
@@ -54,9 +58,10 @@
 #header {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url('../img/header-background.jpg');
     background-size: cover;
+    
 }
 
 .header-text {
@@ -94,6 +99,7 @@
     display: inline-block;
     background-color: #f9fcfe;
     box-shadow: 0px 7px 5px lightgrey;
+    z-index: 9;
 }
 
 #about>h3 {
@@ -138,7 +144,7 @@
     position: relative;
     width: 100%;
     display: inline-block;
-    background-color: gray;
+    background-color: white;
 }
 
 #skills>h3 {
@@ -151,11 +157,31 @@
 }
 
 #skills p {
-    padding: 0 20px 20px 20px;
+    padding: 0 2em;
     text-align: center;
     display: inline-block;
 }
 
+.container-icons {
+    text-align: center;
+    padding: 2em;
+}
+.container-icons figure {
+    display: inline-block;
+    padding: 0 2em 4em 2em;;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+#HTML5 img,
+#CSS3 img,
+#JavaScript img,
+#JQuery img {
+    width: 100%;
+    box-sizing: border-box;
+}
 
 /*PORTFOLIO SECTION*/
 
@@ -165,7 +191,7 @@
     left: 0;
     right: 0;
     display: inline-block;
-    background-color: darkseagreen;
+    background-color: white;
 }
 
 #portfolio>h3 {
@@ -177,6 +203,84 @@
     box-sizing: border-box;
     padding: 2em;
 }
+
+.portfolio-container{
+    display: inline-block;
+    width: 100%;
+    padding: 2em;
+}
+
+.portfolio-box {
+    position: relative;
+    width: 33.33333%;
+    height: 400px;
+    float: left;
+    background-size: cover;
+}
+
+#container-1 {
+    background-image: url('../img/portfolio1.jpg');
+}
+
+#container-2 {
+    background-image: url('../img/portfolio2.jpg');
+}
+
+#container-3 {
+    background-image: url('../img/portfolio4.jpg');
+}
+.box-mask {
+    position: absolute;
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.box-mask:hover {
+    opacity: 1;
+}
+
+.box-border {
+    position: absolute;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 96%;
+    height: 96%;
+    margin: 2%;
+}
+
+.box-content {
+    position: absolute;
+    box-sizing: border-box;
+    width: 96%;
+    height: 96%;
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.box-content h3,
+p {
+    text-align: center;
+    padding: 2em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*FOOTER SECTION*/
