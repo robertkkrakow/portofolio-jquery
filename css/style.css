@@ -5,13 +5,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-#main-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: aquamarine;
-}
-
 
 /*ADDITIONAL*/
 
@@ -317,27 +310,6 @@ p {
     padding: 2em 0 0 2em;
 }
 
-.sm-ico {
-    display: inline-block;
-    width: 3em;
-    height: 3em;
-    float: left;
-    margin-right: 25px;
-    border: 1px solid white;
-    padding-left: 1em 1em 0 0;
-    color: azure;
-}
-
-.sm-ico>a {
-    color: azure;
-    cursor: pointer;
-}
-
-.sm-ico>a:hover {
-    color: red;
-    cursor: pointer;
-}
-
 .address-text {
     display: inline-block;
     width: 100%;
@@ -367,65 +339,21 @@ p {
 
 /*SOCIAL MEDIA*/
 
-.mydiv-f,
-.mydiv-g,
-.mydiv-t,
-.mydiv-l {
-    font-family: sans-serif;
+.address-container .socialmedia-container a {
     width: 50px;
     height: 50px;
-    padding: 10px 0;
     text-align: center;
     border: 1px solid #fff;
     color: #fff;
     display: inline-block;
-    margin-right: 1em;
-}
-.mydiv-f:hover,
-.mydiv-g:hover,
-.mydiv-t:hover,
-.mydiv-l:hover {
-    font-family: sans-serif;
-    width: 50px;
-    height: 50px;
-    padding: 10px 0;
-    text-align: center;
-    border: 1px solid red;
-    color: red;
-    display: inline-block;
+    line-height: 60px;
     margin-right: 1em;
 }
 
-.mydiv-f:before {
-    content: "\f09a ";
-    font-family: FontAwesome;
-    font-size: 2em;
-    display: block;
-    text-align: center;
-}
-
-.mydiv-g:before {
-    content: "\f0d5 ";
-    font-family: FontAwesome;
-    font-size: 2em;
-    display: block;
-    text-align: center;
-}
-
-.mydiv-t:before {
-    content: "\f099 ";
-    font-family: FontAwesome;
-    font-size: 2em;
-    display: block;
-    text-align: center;
-}
-
-.mydiv-l:before {
-    content: "\f0e1 ";
-    font-family: FontAwesome;
-    font-size: 2em;
-    display: block;
-    text-align: center;
+.address-container .socialmedia-container a:hover {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #213b50;
 }
 
 
