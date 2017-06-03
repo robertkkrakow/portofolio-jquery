@@ -265,7 +265,11 @@ p {
     text-align: center;
     padding: 2em;
 }
-
+.box-border>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 /*FOOTER SECTION*/
 

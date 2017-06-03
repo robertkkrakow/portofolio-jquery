@@ -11,13 +11,15 @@
         display: block;
         padding: .3em 2em .3em 0;
     }
-    
     /*HEADER SECTION*/
-
+    #header {
+        padding-left: 2em;
+    }
     .header-text {
         position: absolute;
         top: 30%;
         transform: translateY(-70%);
+        text-align: left;
     }
     #header>h1 {
         top: 50%;
@@ -27,21 +29,23 @@
         top: 60%;
         font-size: 1.5em;
     }
-    
     /*ABOUT SECTION*/
-
     .about-inner-container {
         width: 100%;
+        height: auto;
         display: block;
-        padding: 2em;
+        padding: 0em;
+    }
+    #about>h3 {
+        text-align: left;
     }
     #about p {
-        padding: 0;
+        padding: .5em 2em;
     }
     #about figure {
-        width: 280px;
-        line-height: 200px;
-        margin: auto;
+        width: 380px;
+        line-height: 150px;
+        margin: 0 auto;
         left: 0;
         right: 0;
     }
@@ -50,241 +54,24 @@
         border: 15px solid white;
         border-radius: 10px;
     }
-    
     /*SKILLS SECTION*/
-    #skills {
-        position: relative;
-        width: 100%;
-        display: inline-block;
-        background-color: white;
-    }
     #skills>h3 {
-        width: 100%;
-        font-size: 2em;
-        color: black;
-        font-weight: 100;
-        text-align: center;
-        padding: 2em;
+        text-align: left;
     }
     #skills p {
-        padding: 0 2em;
-        text-align: center;
-        display: inline-block;
-    }
-    .container-icons {
-        text-align: center;
-        padding: 2em;
-    }
-    .container-icons figure {
-        display: inline-block;
-        padding: 0 2em 4em 2em;
-        ;
-    }
-    figure figcaption {
-        text-align: center;
-    }
-    #HTML5 img,
-    #CSS3 img,
-    #JavaScript img,
-    #JQuery img {
-        width: 100%;
-        box-sizing: border-box;
+        text-align: left;
     }
     /*PORTFOLIO SECTION*/
-    #portfolio {
-        position: relative;
-        width: 100%;
-        left: 0;
-        right: 0;
-        display: inline-block;
-        background-color: white;
-    }
-    #portfolio>h3 {
-        width: 100%;
-        font-size: 2em;
-        color: black;
-        font-weight: 100;
-        text-align: center;
-        box-sizing: border-box;
-        padding: 2em;
-    }
-    .portfolio-container {
-        display: inline-block;
-        width: 100%;
-        padding: 2em;
-    }
     .portfolio-box {
         position: relative;
-        width: 33.33333%;
+        width: 100%;
         height: 400px;
         float: left;
         background-size: cover;
     }
-    #container-1 {
-        background-image: url('../img/portfolio1.jpg');
-    }
-    #container-2 {
-        background-image: url('../img/portfolio2.jpg');
-    }
-    #container-3 {
-        background-image: url('../img/portfolio4.jpg');
-    }
-    .box-mask {
-        position: absolute;
-        background-color: rgba(42, 61, 79, 0.8);
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        opacity: 0;
-        transition: all .5s ease-in-out;
-    }
-    .box-mask:hover {
-        opacity: 1;
-    }
-    .box-border {
-        position: absolute;
-        border: 1px solid white;
-        box-sizing: border-box;
-        width: 96%;
-        height: 96%;
-        margin: 2%;
-    }
-    .box-content {
-        position: absolute;
-        box-sizing: border-box;
-        width: 96%;
-        height: 96%;
-        margin: 2%;
-        color: white;
-        text-align: center;
-    }
-    .box-content h3,
-    p {
-        text-align: center;
-        padding: 2em;
-    }
     /*FOOTER SECTION*/
-    #contact {
-        position: relative;
-        width: 100%;
-        left: 0;
-        right: 0;
-        display: inline-block;
-        background-color: #213b50;
-    }
-    #contact>h3 {
-        width: 100%;
-        font-size: 2em;
-        color: white;
-        font-weight: 100;
-        text-align: left;
-        padding: 2em 0 0 2em;
-    }
     .address-container,
     .form-container {
-        position: relative;
-        width: 50%;
-        height: 50%;
-        display: inline-block;
-        float: left;
-        overflow: hidden;
-        padding: 2em;
-    }
-    .address-container-inside {
         width: 100%;
-        height: 50%;
-        display: inline-block;
-    }
-    .socialmedia-container {
-        width: 100%;
-        display: inline-block;
-        padding: 2em 0 0 2em;
-    }
-    .address-text {
-        display: inline-block;
-        width: 100%;
-        height: 50%;
-        color: white;
-        font-style: normal;
-        font-size: 1em;
-        font-weight: 200;
-    }
-    .address-text>p {
-        padding-top: 1em;
-        line-height: 1.7em;
-        text-align: left;
-    }
-    .address-text p>a {
-        color: #1ac056;
-        text-decoration: none;
-    }
-    .address-text p>a:hover {
-        color: #1f8a46;
-        text-decoration: underline;
-    }
-    /*SOCIAL MEDIA*/
-    .address-container .socialmedia-container a {
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        border: 1px solid #fff;
-        color: #fff;
-        display: inline-block;
-        line-height: 60px;
-        margin-right: 1em;
-    }
-    .address-container .socialmedia-container a:hover {
-        border: 1px solid #fff;
-        background-color: #fff;
-        color: #213b50;
-    }
-    /*form -----> */
-    input[type=text],
-    input[type=email],
-    textarea {
-        width: 100%;
-        padding: 12px 20px;
-        display: inline-block;
-        margin: 10px 0;
-        border: 0;
-        background-color: #2b4a64;
-    }
-    textarea {
-        height: 100px;
-    }
-    input[type=text]:focus,
-    input[type=email]:focus,
-    textarea:focus {
-        background-color: #125893;
-        border: 1px solid #bddffc;
-    }
-    input[type=text]::placeholder,
-    input[type=email]::placeholder,
-    textarea::placeholder {
-        color: #bddffc;
-    }
-    input[type=submit] {
-        width: 100px;
-        height: 50px;
-        font-size: 1em;
-        background-color: #1ac056;
-        color: white;
-        border: 1px solid white;
-        cursor: pointer;
-        float: right;
-    }
-    input[type=submit]:hover {
-        background-color: #1f8a46;
-    }
-    /*<----- form*/
-    .copy {
-        width: 100%;
-        height: 1.5em;
-        font-weight: 200;
-        color: white;
-        background-color: #142634;
-        display: inline-block;
-        padding: .25em 0 .25em 2em;
     }
 }
