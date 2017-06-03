@@ -56,33 +56,24 @@ a {
     background-size: cover;
 }
 
-#centered{
+#header #centered {
     position: absolute;
     width: 100%;
     height: 100px;
     margin: auto 0;
     top: 50%;
     transform: translateY(-50%);
-    
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    
-}
-/*
-.header-text {
-
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-*/
 
-#centered>h1 {
+#header #centered>h1 {
     font-size: 7vw;
     font-weight: 100;
     color: white;
 }
 
-#centered>h2 {
+#header #centered>h2 {
     font-size: 2.5vw;
     font-weight: 100;
     color: white;
@@ -271,11 +262,13 @@ p {
     text-align: center;
     padding: 2em;
 }
-.box-border>a{
+
+.box-border>a {
     width: 100%;
     height: 100%;
     display: block;
 }
+
 
 /*FOOTER SECTION*/
 
