@@ -1,32 +1,72 @@
-/*NAV SECTION*/
+/*--------------1200px width-------------------*/
+
+@media screen and (max-width: 1200px) {
+    /*PORTFOLIO SECTION*/
+    .portfolio-box {
+        width: 50%;
+        height: 450px;
+    }
+    #container-3 {
+        width: 100%;
+    }
+}
+
+
+
+/*--------------768px width-------------------*/
+
+@media screen and (max-width: 768px) {
+    /*HEADER SECTION*/
+    #header>h1 {
+        font-size: 4em;
+    }
+    #header>h2 {
+        font-size: 2em;
+    }
+    /*ABOUT SECTION*/
+    .about-inner-container {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0em;
+    }
+    #about figure {
+        width: 90%;
+    }
+    /*SKILLS SECTION*/
+    .container-icons figure:nth-last-of-type(1) {
+        width: auto;
+        box-sizing: border-box;
+    }
+    /*PORTFOLIO SECTION*/
+    .portfolio-box {
+        width: 100%;
+        height: 450px;
+    }
+    /*FOOTER SECTION*/
+    .address-container,
+    .form-container {
+        width: 100%;
+    }
+}
+
+/*--------------0-480px width-------------------*/
 
 @media screen and (max-width: 480px) {
+    /*NAV SECTION*/
     #menu {
-        width: 30%;
-        /*        height: auto;*/
         right: 0;
         background: transparent;
     }
     #menu .menu-item {
         display: block;
-        padding: .3em 2em .3em 0;
+        padding: .3em 1em .3em 0;
     }
     /*HEADER SECTION*/
-    #header {
-        padding-left: 2em;
-    }
-    .header-text {
-        position: absolute;
-        top: 30%;
-        transform: translateY(-70%);
-        text-align: left;
-    }
     #header>h1 {
-        top: 50%;
         font-size: 3em;
     }
     #header>h2 {
-        top: 60%;
         font-size: 1.5em;
     }
     /*ABOUT SECTION*/
@@ -36,36 +76,11 @@
         display: block;
         padding: 0em;
     }
-    #about>h3 {
-        text-align: left;
-    }
-    #about p {
-        padding: .5em 2em;
-    }
-    #about figure {
-        width: 380px;
-        line-height: 150px;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-    }
-    #about figure img {
-        width: 100%;
-        border: 15px solid white;
-        border-radius: 10px;
-    }
-    /*SKILLS SECTION*/
-    #skills>h3 {
-        text-align: left;
-    }
-    #skills p {
-        text-align: left;
-    }
     /*PORTFOLIO SECTION*/
     .portfolio-box {
         position: relative;
         width: 100%;
-        height: 400px;
+        height: 300px;
         float: left;
         background-size: cover;
     }
@@ -75,3 +90,5 @@
         width: 100%;
     }
 }
+
+
