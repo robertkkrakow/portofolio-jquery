@@ -19,6 +19,10 @@ a {
 
 
 /*NAV SECTION*/
+#menu .toggle, [id=drop]{
+    display: none;
+}
+
 
 #menu {
     position: fixed;
