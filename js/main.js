@@ -1,5 +1,7 @@
 'use strict';
 
+//w dokument ready najlepiej dawac wywolania funkcji, a same funkcje pisac oddzielnie
+
 $(document).ready(function () {
     //wywolanie funkcji scrollMenu  
     scrollMenu();
